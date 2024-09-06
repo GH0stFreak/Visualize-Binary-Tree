@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <script defer src="script.js"></script>
+  <body>
+    <!--============HEADER=============-->
+    <header>
+      <span>Visualize a Binary Tree</span>
+    </header>
+
+    <!--============TREE=============-->
+    <div class="root" id="root">
+      <div class="node">
+        <span class="circle">Root</span>
+      </div>
+    </div>
+
+    <!--=============FOOTER=============-->
+    <div class="footer_container none" id="footer">
+      <footer class="footer">
+        <div>
+          <button id="add_left" class="add_left">
+            Add <br />
+            LEFT Child
+          </button>
+          <button id="add_right" class="add_right">
+            Add<br />
+            RIGHT Child
+          </button>
+        </div>
+
+        <div class="input_container">
+          <input
+            id="input_value"
+            class="input_value"
+            placeholder="Enter Value"
+            type="text"
+          />
+        </div>
+        <div class="delete_container">
+          <button id="delete_node" class="delete_node">
+            Delete<br />
+            Node
+          </button>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
