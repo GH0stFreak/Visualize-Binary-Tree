@@ -4,7 +4,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://gh0stfreak.github.io/Visualize-Binary-Tree/" color="white" target="_blank">
+    <a href="https://karanpunjapatel.github.io/Visualize-Binary-Tree/" color="white" target="_blank">
       Live
     </a>
   <span> | 
